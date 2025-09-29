@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achieve Hockey | Premium Hockey Training</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">ACHIEVE<span>HOCKEY</span></a>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="about/about.html">About Us</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                  
+                    <li><a href="app/app.html">App</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="mobile-login"><a href="login/login.html" class="btn-login">Login</a></li>
+                </ul>
+                
+            </nav>
+    
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <video class="hero-video" autoplay muted loop playsinline>
+      <source src="https://escex07qwkvrz1em.public.blob.vercel-storage.com/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+        <div class="container">
+          
+            <div class="hero-content">
+                <h1>Elevate Your Hockey Game</h1>
+                <p>Professional training programs designed to maximize your potential on the ice. Join the elite players who trust Achieve Hockey.</p>
+                <a href="#programs" class="btn btn-outline">View Programs</a>
+                <a href="app/app.html" class="btn">Launch App</a>
+                <a href="#contact" class="btn btn-outline">Contact Us</a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+   <section class="programs-section" id="programs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Elite Training Programs</h2>
+                <p>Transform your game with our cutting-edge training methodologies</p>
+            </div>
+
+            <div class="programs-stack">
+                <!-- Elite Skating -->
+                <div class="program-card active" data-index="0">
+                    <div>
+                        <div class="program-icon">⛸️</div>
+                        <h3>Elite Skating</h3>
+                        <p>Master the art of skating with precision edge work, explosive acceleration, and professional-level agility techniques.</p>
+                        <ul class="program-features">
+                            <li>Advanced Edge Control</li>
+                            <li>Explosive Acceleration</li>
+                            <li>Professional Agility Drills</li>
+                            <li>Speed Optimization</li>
+                        </ul>
+                    </div>
+                    <button class="program-btn">Start Training</button>
+                </div>
+
+                <!-- Shooting & Scoring -->
+                <div class="program-card right" data-index="1">
+                    <div>
+                        <div class="program-icon">🎯</div>
+                        <h3>Shooting & Scoring</h3>
+                        <p>Develop lethal shooting accuracy and scoring instincts used by professional players worldwide.</p>
+                        <ul class="program-features">
+                            <li>Shot Accuracy Training</li>
+                            <li>Power Development</li>
+                            <li>Quick Release Drills</li>
+                            <li>Game Situation Scoring</li>
+                        </ul>
+                    </div>
+                    <button class="program-btn">Start Training</button>
+                </div>
+
+                <!-- Goalie Training -->
+                <div class="program-card far-right" data-index="2">
+                    <div>
+                        <div class="program-icon">🥅</div>
+                        <h3>Goalie Training</h3>
+                        <p>Specialized training for goaltenders focusing on positioning, reflexes, and mental toughness.</p>
+                        <ul class="program-features">
+                            <li>Advanced Positioning</li>
+                            <li>Lightning Reflex Drills</li>
+                            <li>Angle Management</li>
+                            <li>Mental Toughness</li>
+                        </ul>
+                    </div>
+                    <button class="program-btn">Start Training</button>
+                </div>
+
+                <!-- Power & Strength -->
+                <div class="program-card left" data-index="3">
+                    <div>
+                        <div class="program-icon">💪</div>
+                        <h3>Power & Strength</h3>
+                        <p>Build hockey-specific strength and explosive power to dominate on the ice.</p>
+                        <ul class="program-features">
+                            <li>Hockey-Specific Strength</li>
+                            <li>Explosive Power Development</li>
+                            <li>Core Stability</li>
+                            <li>Injury Prevention</li>
+                        </ul>
+                    </div>
+                    <button class="program-btn">Start Training</button>
+                </div>
+
+                <!-- Team Training -->
+                <div class="program-card far-left" data-index="4">
+                    <div>
+                        <div class="program-icon">👥</div>
+                        <h3>Team Training</h3>
+                        <p>Complete team development programs focusing on systems, chemistry, and game strategy.</p>
+                        <ul class="program-features">
+                            <li>Team Systems</li>
+                            <li>Chemistry Building</li>
+                            <li>Game Strategy</li>
+                            <li>Leadership Development</li>
+                        </ul>
+                    </div>
+                    <button class="program-btn">Start Training</button>
+                </div>
+            </div>
+
+            <div class="program-nav">
+                <div class="nav-dot active" data-nav="0"></div>
+                <div class="nav-dot" data-nav="1"></div>
+                <div class="nav-dot" data-nav="2"></div>
+                <div class="nav-dot" data-nav="3"></div>
+                <div class="nav-dot" data-nav="4"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Coaches Section -->
+    <section id="coaches" style="background-color: #111;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Founders</h2>
+                <p>Meet the founders of Achieve-Ice</p>
+            </div>
+            <div class="coaches-grid">
+                <div class="coach-card">
+                    <div class="coach-img" style="background-image: url(sources/founders/Solomon.jpg);"></div>
+                    <h3>Seiwon "Solomon" Kim</h3>
+                    <p style="color: white;">Co-Founder | Software development project manager</p>
+               
+                </div>
+                <div class="coach-card" >
+                    <div class="coach-img" style="background-image: url(sources/founders/Thomas.jpg);"></div>
+                    <h3>Thomas Kim</h3>
+                    <p style="color:white">CEO | Founder</p>
+                  
+                </div>
+                <div class="coach-card">
+                    <div class="coach-img" style="background-image: url('https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1456&q=80');"></div>
+                    <h3>David Chen</h3>
+                    <p style="color:white;">Shooting Coach</p>
+                    <p style="color:white;">Skills coach with a focus on shooting accuracy and power.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!--<section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Success Stories</h2>
+                <p>Hear from players who have transformed their game with Achieve Hockey.</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>"The training at Achieve Hockey completely changed my game. My skating improved dramatically and I earned a scholarship to play college hockey."</p>
+                    <h4>James Peterson</h4>
+                    <p>NCAA Division I Player</p>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Ready to take your game to the next level? Contact us today to schedule a training session.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Hockey Way, Minneapolis, MN 55401</p>
+                    <p><i class="fas fa-phone"></i> (612) 555-HOCKEY</p>
+                    <p><i class="fas fa-envelope"></i> info@achievehockey.org</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 9am-9pm, Sat-Sun: 8am-6pm</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>ACHIEVE HOCKEY</h3>
+                    <p>Dedicated to developing hockey players through professional training and personalized coaching.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        
+                        
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Programs</h3>
+                    <ul>
+                        <li><a href="#">Elite Skating</a></li>
+                        <li><a href="#">Shooting & Scoring</a></li>
+                        <li><a href="#">Goalie Training</a></li>
+                        <li><a href="#">Team Training</a></li>
+                        <li><a href="#">Summer Camps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Subscribe</h3>
+                    <p>Stay updated with our latest programs and training tips.</p>
+                    <form>
+                        <input type="email" placeholder="Your Email" style="width: 100%; padding: 10px; margin-bottom: 10px; background: #222; border: 1px solid #333; color: #fff; border-radius: 5px;">
+                        <button type="submit" class="btn" style="width: 100%;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Achieve Hockey. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        class ProgramsCarousel {
+            constructor() {
+                this.cards = document.querySelectorAll('.program-card');
+                this.dots = document.querySelectorAll('.nav-dot');
+                this.currentIndex = 0;
+                this.totalCards = this.cards.length;
+                
+                this.init();
+            }
+
+            init() {
+                // Add click events to dots
+                this.dots.forEach((dot, index) => {
+                    dot.addEventListener('click', () => {
+                        this.setActiveCard(index);
+                    });
+                });
+
+                // Add click events to cards
+                this.cards.forEach((card, index) => {
+                    card.addEventListener('click', (e) => {
+                        if (!e.target.classList.contains('program-btn')) {
+                            this.setActiveCard(index);
+                        }
+                    });
+                });
+
+                // Add swipe support for mobile
+                this.addSwipeSupport();
+            }
+
+            setActiveCard(index) {
+                this.currentIndex = index;
+                
+                // Update cards
+                this.cards.forEach((card, i) => {
+                    card.classList.remove('active', 'left', 'right', 'far-left', 'far-right');
+                    
+                    if (i === index) {
+                        card.classList.add('active');
+                    } else if (i === (index - 1 + this.totalCards) % this.totalCards) {
+                        card.classList.add('left');
+                    } else if (i === (index + 1) % this.totalCards) {
+                        card.classList.add('right');
+                    } else if (i === (index - 2 + this.totalCards) % this.totalCards) {
+                        card.classList.add('far-left');
+                    } else if (i === (index + 2) % this.totalCards) {
+                        card.classList.add('far-right');
+                    }
+                });
+
+                // Update dots
+                this.dots.forEach((dot, i) => {
+                    dot.classList.toggle('active', i === index);
+                });
+            }
+
+            addSwipeSupport() {
+                let startX = 0;
+                let endX = 0;
+
+                this.cards[0].parentElement.addEventListener('touchstart', (e) => {
+                    startX = e.changedTouches[0].screenX;
+                });
+
+                this.cards[0].parentElement.addEventListener('touchend', (e) => {
+                    endX = e.changedTouches[0].screenX;
+                    this.handleSwipe(startX, endX);
+                });
+            }
+
+            handleSwipe(startX, endX) {
+                const swipeThreshold = 50;
+                const diff = startX - endX;
+
+                if (Math.abs(diff) > swipeThreshold) {
+                    if (diff > 0) {
+                        // Swipe left - next card
+                        this.setActiveCard((this.currentIndex + 1) % this.totalCards);
+                    } else {
+                        // Swipe right - previous card
+                        this.setActiveCard((this.currentIndex - 1 + this.totalCards) % this.totalCards);
+                    }
+                }
+            }
+        }
+
+        // Initialize the carousel when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new ProgramsCarousel();
+        });
+        // Mobile Menu Toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+        // Reset animation on page load for smoother effect
+window.addEventListener('load', function() {
+    const heroContent = document.querySelector('.hero-content');
+    heroContent.style.animation = 'none';
+    setTimeout(() => {
+        heroContent.style.animation = '';
+    }, 10);
+});
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu after clicking a link
+                    if(window.innerWidth <= 768) {
+                        document.querySelector('nav ul').classList.remove('show');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
